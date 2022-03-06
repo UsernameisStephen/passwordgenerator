@@ -35,7 +35,7 @@ function generatePassword() {
 }  
 
 
-// // // Write password to the #password input
+//  Write password to the #password input
 function writePassword() {
   finalResult = generatePassword ();
   passwordText = document.querySelector("#password");
@@ -43,5 +43,5 @@ function writePassword() {
   }
 
 
-// // Add event listener to generate button
+//  Add event listener to generate button
  generateBtn.addEventListener("click", writePassword);
