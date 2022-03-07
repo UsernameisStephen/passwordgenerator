@@ -1,8 +1,15 @@
 Password Generator
 
-Description:
+*Description*
 
 With the given css and html, I created a JavaScript file that produced a simple, user-friendly random password generator. The user will be shown a clickable icon that will then show a serious of prompts that will allow the user to generate a secure password containing special characters, uppercase/lowercase letters, and numbers. The user will also be allowed to specify the password length (from 8-128 characters).
 
+*Screen Shots*
+![image](https://user-images.githubusercontent.com/100049940/156963614-86a99c87-7f1c-4f16-a4ff-21aaf4d96a4f.png)
 
+
+
+
+*Links*
+https://github.com/UsernameisStephen/passwordgenerator.git
 
