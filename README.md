@@ -16,4 +16,10 @@ With the given css and html, I created a JavaScript file that produced a simple,
 
 https://usernameisstephen.github.io/passwordgenerator/
 
+*Constributions*
+
+https://www.w3schools.com/jsref/jsref_concat_string.asp , https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/concat
+
 
