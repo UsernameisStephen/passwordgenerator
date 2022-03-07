@@ -8,8 +8,11 @@ With the given css and html, I created a JavaScript file that produced a simple,
 ![image](https://user-images.githubusercontent.com/100049940/156963614-86a99c87-7f1c-4f16-a4ff-21aaf4d96a4f.png)
 
 
+![image](https://user-images.githubusercontent.com/100049940/156964234-fca688fa-889c-4d8f-b71f-2b1d9def99eb.png)
+
 
 
 *Links*
-https://github.com/UsernameisStephen/passwordgenerator.git
+https://usernameisstephen.github.io/passwordgenerator/
+
 
