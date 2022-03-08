@@ -10,15 +10,18 @@ var allowSpecials;
 
 //variable values
 var lower = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
+
 var upper = [ "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z" ];
-var num = ["1,2,3,4,5,6,7,8,9"];
+
+var num = ["1", "2", "3", "4", "5", "6", "7", "8", "9"]
+
 var char = ["!", "@", "#", "$", "%", "^", "&", "+", "(", ")", "-", "_", "+", "=", "{", "[", "}", "]", ":", ";", "'", "|", ",", ".", "<", ">", "?", "/", "~", "~"];
 
 //function to generate password with prompt for password length, numbers, characters, uppercase letters and lowercase letters
 //function includes window alert with messages 
 function generatePassword() {
   let length = (prompt("Between 8-128, how many characters would you like your password to be?"));
-  if (length < 8 || length > 128) {
+  if (!length) {
       alert("Input invalid");
       return 'Click "Generate Password" to start over'
   } else {
@@ -33,8 +36,9 @@ function generatePassword() {
     
   }  
 
-  //provided flat method to concatenate sub arrays into new array
-  //contribution: https://www.w3schools.com/jsref/jsref_concat_string.asp , https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split 
+  //provided concat method to concatenate arrays
+  //contribution note: https://www.w3schools.com/jsref/jsref_concat_string.asp , https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split 
+  //contribution note: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/concat
 
   var passCreate = []
     if (allowNumbers) {
