@@ -45,7 +45,7 @@ function generatePassword() {
       passCreate = passCreate.concat(num)
     }
     if (allowSpecials) {
-      passwordCreate = passCreate.concat(char)
+      passCreate = passCreate.concat(char)
     }
     if (allowUppercase) {
       passreate = passCreate.concat(upper)
